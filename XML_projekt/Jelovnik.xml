@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="kolekcija_jelovnik.xsl"?>
+<jelovnik>
+   <pizza>
+      <naziv>FUNGI</naziv>
+      <slika>Slike/pizza1.jpg</slika>
+      <cijena>40 kn</cijena>
+      <sastojci>rajčica, sir, šunka, gljive</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>MARGHERITA</naziv>
+    <slika>Slike/pizza2.jpg</slika>
+    <cijena>45 kn</cijena>
+    <sastojci>rajčica, sir</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>ZAGORSKA</naziv>
+    <slika>Slike/pizza3.jpg</slika>
+    <cijena>54 kn</cijena>
+    <sastojci>rajčica, sir, šunka, gljive, špek</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>DALMATINSKA</naziv>
+    <slika>Slike/pizza4.jpg</slika>
+    <cijena>55 kn</cijena>
+    <sastojci>rajčica, sir, pršut, masline</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>VEGETARIANA</naziv>
+    <slika>Slike/pizza5.jpg</slika>
+    <cijena>49 kn</cijena>
+    <sastojci>rajčica,sir,gljive,svježa paprika,svježa rajčica,kukuruz,tikvice</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>SLAVONSKA</naziv>
+    <slika>Slike/pizza6.jpg</slika>
+    <cijena>57 kn</cijena>
+    <sastojci>rajčica, sir, šunka, kulen, jaje, vrhnje, lj. feferoni</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>MEXICANA</naziv>
+    <slika>Slike/pizza7.jpg</slika>
+    <cijena>52 kn</cijena>
+    <sastojci>rajčica, sir, kulen,kukuruz, paprika, chilli</sastojci>
+  </pizza>
+  <pizza>
+    <naziv>SPECIJALNA</naziv>
+    <slika>Slike/pizza8.jpg</slika>
+    <cijena>50 kn</cijena>
+    <sastojci>rajčica, sir, šunka, dim. vratina, pečena paprika, kis.vrhnje</sastojci>
+  </pizza>
+</jelovnik>

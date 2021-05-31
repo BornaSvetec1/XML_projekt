@@ -1,0 +1,169 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Pizzeria Borna</title>
+</head>
+
+<header>
+    <div class="menu">
+        <ul>
+            <li><a href="Pizzeria.html">Početna</a></li>
+            <li><a href="#">Jelovnik</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <article>
+		<div id="content">
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+
+			<div class="pizza">
+
+				<hr class="solid">
+	
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+	
+			</div>
+
+			<div class="pizza">
+
+            	<hr class="solid">
+
+				<h2 class="naziv"></h2>	 
+				<img class="slika">
+				<p>Cijena: </p>
+				<p class="cijena"></p>
+				<p>Sastojci: </p>
+				<p class="sastojci"></p><br>
+
+			</div>
+
+		</div>
+	</article>
+</div>
+
+<script>
+	var xhttp = new XMLHttpRequest();
+
+	xhttp.onreadystatechange = function() {
+	
+	let xmlDoc = xhttp.responseXML;
+    if (this.readyState == 4 && this.status == 200) {   
+
+	let naziv = document.getElementsByClassName("naziv");
+	let slika = document.getElementsByClassName("slika");
+	let cijena = document.getElementsByClassName("cijena");
+	let sastojci = document.getElementsByClassName("sastojci");
+
+	let xmlPizza = xmlDoc.getElementsByTagName("pizza");
+	let xmlNaziv = xmlDoc.getElementsByTagName("naziv");
+	let xmlSlika = xmlDoc.getElementsByTagName("slika");
+	let xmlCijena = xmlDoc.getElementsByTagName("cijena");
+	let xmlSastojci = xmlDoc.getElementsByTagName("sastojci");
+
+	for (let i = 0; i < xmlPizza.length; i++) {
+	  naziv[i].innerHTML = xmlNaziv[i].childNodes[0].nodeValue;
+	  slika[i].src = xmlSlika[i].childNodes[0].nodeValue;
+	  cijena[i].innerHTML = xmlCijena[i].childNodes[0].nodeValue;
+	  sastojci[i].innerHTML = xmlSastojci[i].childNodes[0].nodeValue;
+	}
+    }
+
+	};
+	xhttp.open("GET", "Jelovnik.xml", true);
+	xhttp.send();
+
+  </script>
+
+</body>
+
+<footer>
+    <p>© Borna Svetec 2021.</p>
+</footer>

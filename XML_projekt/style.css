@@ -1,0 +1,159 @@
+header{
+    position: relative;
+    text-align: center;
+    background-color: rgb(71, 164, 75);
+}
+
+.menu{
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+
+ul{
+    margin: 0;
+	display: inline-block;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+        display: block;
+        letter-spacing: 1px;
+        padding: 0px 40px;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.80em;
+        line-height: 100px;
+        border: none;
+        color: white;
+}
+
+body {
+    font-size: 14;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam' !important;
+}
+
+.prvi {
+    width: 100%;
+    display: table;
+    height: 300px;
+    text-align: center;
+    background-image: url('pizza.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.prvi p{
+    color: rgb(71, 164, 75);
+    font-size: 50px;
+}
+
+.drugi{
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    background-size: cover;
+    display: block;
+}
+
+.pom{
+    padding: 16px;
+    font-size: 14px;
+    background-color: rgba(255,255,255,0.99);
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.naslov{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    padding: 0 60px 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.opis{
+    margin: 10px 0 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    position: relative;
+    display: block;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(71, 164, 75);
+}
+
+table{
+    position: relative;
+    width: 100%;
+    margin: 0 auto 40px;
+    max-width: 400px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    text-align: center;
+}
+
+.regular-times{
+    position: relative;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+.regular{
+    position: relative;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+.vrijeme{
+    position: relative;
+    display: block;
+    text-align: right;
+    white-space: nowrap;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgb(71, 164, 75);
+}
+
+footer {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        background-color: rgb(71, 164, 75);
+}
+

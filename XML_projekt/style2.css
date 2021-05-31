@@ -1,0 +1,74 @@
+header{
+    position: relative;
+    text-align: center;
+    background-color: rgb(71, 164, 75);
+}
+
+.menu{
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+
+ul{
+    margin: 0;
+	display: inline-block;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+        display: block;
+        letter-spacing: 1px;
+        padding: 0px 40px;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.80em;
+        line-height: 100px;
+        border: none;
+        color: white;
+}
+
+body {
+    font-size: 14;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam' !important;
+}
+
+article{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+hr.solid {
+    border-top: 3px solid
+}
+
+
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(71, 164, 75);
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+footer {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        background-color: rgb(71, 164, 75);
+}
+
